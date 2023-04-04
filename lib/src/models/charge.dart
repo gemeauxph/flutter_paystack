@@ -25,7 +25,7 @@ class Charge {
   String? plan;
   String? reference;
 
-  /// ISO 4217 payment currency code (e.g USD). Defaults to [Strings.ngn].
+  /// ISO 4217 payment currency code (e.g USD). Defaults to [Strings.zar].
   ///
   /// If you're setting this value, also set [locale] for better formatting.
   String? currency;
@@ -43,7 +43,7 @@ class Charge {
     this._customFields = [];
     this._metadata!['custom_fields'] = this._customFields;
     this.locale = Strings.nigerianLocale;
-    this.currency = Strings.ngn;
+    this.currency = Strings.zar;
   }
 
   addParameter(String key, String value) {

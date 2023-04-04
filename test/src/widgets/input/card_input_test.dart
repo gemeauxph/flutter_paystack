@@ -8,7 +8,7 @@ import '../../common/widget_builder.dart';
 
 void main() {
   group("$CardInput", () {
-    final buttonText = "Pay NGN 300";
+    final buttonText = "Pay ZAR 300";
     final paymentCard = PaymentCard.empty();
 
     final cardInputWidget = buildTestWidget(CardInput(

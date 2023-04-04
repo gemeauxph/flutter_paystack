@@ -33,7 +33,7 @@ void main() {
       });
 
       test("returns normally when currency formatter has been set", () {
-        Utils.setCurrencyFormatter(Strings.ngn, Strings.nigerianLocale);
+        Utils.setCurrencyFormatter(Strings.zar, Strings.nigerianLocale);
         expect(() => Utils.formatAmount(100), returnsNormally);
       });
     });
