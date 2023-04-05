@@ -9,7 +9,7 @@ class Strings {
   static const String continue_ = 'Continue';
   static const String cancel = 'Cancel';
   static const String unKnownError = 'Unknown Error';
-  static const String nigerianLocale = 'en_NG';
+  static const String nigerianLocale = 'en-ZA';
 
   static const String zar = 'ZAR';
   static const String noAccessCodeReference =
