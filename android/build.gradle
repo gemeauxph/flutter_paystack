@@ -1,5 +1,3 @@
-package android
-
 group 'co.paystack.flutterpaystack'
 version '1.0-SNAPSHOT'
 
