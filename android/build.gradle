@@ -48,10 +48,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-
-    kotlin {
-        jvmToolchain(1.8)
-    }
 }
 
 dependencies {
