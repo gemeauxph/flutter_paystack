@@ -35,6 +35,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         versionCode 21
         versionName "3.0.10"
+        multiDexEnabled true
     }
     lintOptions {
         disable 'InvalidPackage'
